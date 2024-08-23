@@ -1,0 +1,19 @@
+/*@keyframes draw-circle-spinner {*/
+/*    0% {*/
+/*        stroke-dashoffset: 174;*/
+/*    }*/
+/*    100% {*/
+/*        stroke-dashoffset: 0;*/
+/*    }*/
+/*}*/
+
+.hover-circle {
+    stroke-dasharray: 180; /* 2 * Math.PI * r, burada r halkanın yarıçapı */
+    stroke-dashoffset: 180;
+    transition: stroke-dashoffset 1000ms ease-in-out;
+}
+
+/*.hover-circle:hover {*/
+/*    stroke-dashoffset: 0;*/
+/*    animation: draw-circle-spinner 1500ms linear;*/
+/*}*/
